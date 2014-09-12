@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img1"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/ps4"
+                android:adjustViewBounds="true" />
+
+            <LinearLayout
+                android:background="#ff656565"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp">
+
+                        <ImageView
+                            android:src="@drawable/xataka"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:id="@+id/img2"
+                            android:layout_gravity="center" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:text="Xataka"
+                                android:id="@+id/tv1"
+                                android:textSize="14sp"
+                                android:layout_gravity="top"
+                                android:textStyle="bold"
+                                android:textColor="#ff121212"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:text="27/08/2014  8:23 AM"
+                                android:id="@+id/textView2"
+                                android:textSize="10sp"
+                                android:layout_gravity="bottom"
+                                android:layout_marginBottom="3dp"
+                                android:textColor="#ff3c3c3c" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:id="@+id/textView3"
+                        android:background="@drawable/linea"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Un tercio de los jugadores de PS4 vienen de Wii y Xbox 360"
+                        android:id="@+id/tvTitle"
+                        android:layout_gravity="left|center"
+                        android:textStyle="bold"
+                        android:textSize="24sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra ="2dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Exactamente, 31% de los 1.200 jugadores consultados que adquirieron una PS4 no tienen una PS3 (o pueden haberla vendido para comprar una PS4, no se especificó bien) en la generación pasada, sino que prefirieron la oferta de Nintendo o Microsoft. O ambas.  Con estos datos, hay varios mitos que se pueden ir descartando. Primero, ese de que “los americanos prefieren Xbox por patriotas”: en realidad, a los jugadores estadounidenses nunca les ha importado tanto la procedencia de la marca, algo que normalmente se tiende a creer. De hecho, las grandes ventas de PS2 y Wii -consolas japonesas- en el pasado son una muestra de lo contrario.  Segundo, que hay mucha gente a la que en realidad les da lo mismo la “lealtad” hacia una marca y sus preferencias se decantan en pos de la mejor oferta. ¿PS4 es más barata y los multiplataforma rinden mejor? Entonces hacia allá se van todos. No hay mucha ciencia.  No es de extrañar entonces que las remasterizaciones de juegos de PS3 tengan tanta aceptación. O que Sony no sepa de donde salen sus ventas."
+                    android:id="@+id/textView"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

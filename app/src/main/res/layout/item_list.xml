@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/borde">
+
+
+        <LinearLayout
+
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingRight="5dp"
+            android:padding="7dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            >
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/image2"
+                    android:layout_gravity="center" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Xataka"
+                    android:id="@+id/tv1"
+                    android:layout_gravity="center"
+                    android:textColor="#ff000000"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="3dp" />
+            </LinearLayout>
+
+            <TextView
+
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:text="Un tercio de los jugadores de PS4 vienen de Wii y Xbox 360"
+                android:textSize="18sp"
+                android:maxLines="3"
+                android:minLines="3" />
+
+            <TextView
+
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15h"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_gravity="left|bottom"
+                android:textColor="#ff555555"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:paddingRight="0.5dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="0.5dp"
+            android:paddingBottom="0.5dp"
+            android:src="@drawable/ps4"
+            android:id="@+id/image1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:contentDescription="Descripción del contenido de la imagen"
+
+            android:layout_gravity="center|right" />
+
+</LinearLayout>
